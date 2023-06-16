@@ -1,0 +1,17 @@
+.level1 {
+    width: 150px;
+    white-space: normal;
+    background-color: rgb(157, 226, 187);
+}
+
+.level1:hover {
+    width: 150px;
+    white-space: normal;
+    background-color: rgb(114, 178, 214);
+}
+
+.level:active {
+    width: 150px;
+    white-space: normal;
+    background-color: rgb(208, 107, 212);
+}

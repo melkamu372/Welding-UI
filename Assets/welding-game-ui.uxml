@@ -1,15 +1,16 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/level1.uss?fileID=7433441132597879392&amp;guid=64018b58627ce0a48bd79e1f526bdc55&amp;type=3#level1" />
     <ui:VisualElement name="whole_screen" style="height: 320px; background-color: rgb(245, 235, 235); width: 798px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
-        <ui:Label text="Welcome to Basic  Welding Training" display-tooltip-when-elided="true" name="Label" enable-rich-text="true" style="height: 61px; color: rgb(34, 18, 18); background-color: rgb(151, 157, 188); -unity-text-align: middle-center; font-size: 18px; -unity-font-style: bold; width: 796px;" />
-        <ui:VisualElement name="butto_container" style="background-color: rgb(236, 241, 224); height: 102px; width: 752px; flex-direction: row; margin-left: 20px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
-            <ui:Button text="Level  1" display-tooltip-when-elided="true" name="button1" style="width: 150px; white-space: normal; background-color: rgb(107, 212, 188);" />
+        <ui:Label text="Welcome to Basic  Welding Training" display-tooltip-when-elided="true" name="Label" enable-rich-text="true" style="height: 53px; color: rgb(34, 18, 18); background-color: rgb(235, 237, 245); -unity-text-align: middle-center; font-size: 18px; -unity-font-style: bold; width: 742px; margin-left: 20px; margin-right: 20px; margin-top: 10px; margin-bottom: 10px;" />
+        <ui:VisualElement name="butto_container" style="background-color: rgb(236, 241, 224); height: 102px; width: 752px; flex-direction: row; margin-left: 20px; margin-right: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <ui:Button text="Level  1" display-tooltip-when-elided="true" name="level1" class="level" style="width: 149px;" />
             <ui:Button text="Level 2" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(55, 190, 135);" />
             <ui:Button text="Level 3" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(32, 183, 101);" />
             <ui:Button text="Level 4" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(15, 147, 81);" />
             <ui:Button text="Level 5" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(15, 147, 81); margin-right: 10px;" />
         </ui:VisualElement>
-        <ui:VisualElement name="butto_container" style="background-color: rgb(236, 241, 224); height: 102px; width: 752px; flex-direction: row; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px;">
-            <ui:Button text="Level  6" display-tooltip-when-elided="true" name="button1" style="width: 150px; white-space: normal; background-color: rgb(107, 212, 188); margin-left: 10px;" />
+        <ui:VisualElement name="butto_container" style="background-color: rgb(236, 241, 224); height: 102px; width: 752px; flex-direction: row; margin-left: 20px; margin-right: 20px; margin-top: 10px; margin-bottom: 10px;">
+            <ui:Button text="Level  6" display-tooltip-when-elided="true" name="button1" style="width: 150px; white-space: normal; background-color: rgb(107, 212, 188); margin-left: 3px;" />
             <ui:Button text="Level 7" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(55, 190, 135);" />
             <ui:Button text="Level 8" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(32, 183, 101);" />
             <ui:Button text="Level 9" display-tooltip-when-elided="true" name="button3" enable-rich-text="false" style="width: 146px; background-color: rgb(15, 147, 81);" />
